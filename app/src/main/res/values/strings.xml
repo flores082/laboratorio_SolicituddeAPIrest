@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">laboratorio_Solicitud de API rest</string>
+    <string name="boton">Agregar</string>
 </resources>

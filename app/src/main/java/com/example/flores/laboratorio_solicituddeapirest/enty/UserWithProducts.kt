@@ -1,4 +1,4 @@
-package com.example.flores.laboratorio_solicituddeapirest.entity
+package com.example.flores.laboratorio_solicituddeapirest.enty
 
 import androidx.room.Embedded
 import androidx.room.Relation

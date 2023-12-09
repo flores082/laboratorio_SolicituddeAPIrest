@@ -34,7 +34,7 @@ class Agregar_nombre(private val LC: MutableList<Nombres>):
                 private val textView: TextView = itemView.findViewById(R.id.textView)
 
                 fun bin(producto: Nombres){
-                        textView.text = "nombre_persona"+producto.nombre
+                        textView.text = producto.nombre
 
                 }
         }
