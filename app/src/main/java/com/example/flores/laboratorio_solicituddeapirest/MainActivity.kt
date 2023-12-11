@@ -45,9 +45,9 @@ class MainActivity : AppCompatActivity() {
             nombresList.add(nombreEntity)
             adapter.notifyItemInserted(nombresList.size - 1)
 
-            /*GlobalScope.launch(Dispatchers.IO) {
-                nombreDao.insertNombre(nombreEntity)
-            }*/
+            GlobalScope.launch(Dispatchers.IO) {
+                nombreEntity
+            }
         }
         // Configurar la base de datos Room
         //val db = AppDatabase.getDatabase(applicationContext)
